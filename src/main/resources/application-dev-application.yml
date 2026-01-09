@@ -1,0 +1,3 @@
+SpringBootZeroUltimate:
+  Config:
+    IsSoftDelete: false

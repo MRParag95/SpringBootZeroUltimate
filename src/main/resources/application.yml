@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: SpringBootZeroUltimate
+  profiles:
+    active: dev
+  threads:
+    virtual:
+      enabled: true

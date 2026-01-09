@@ -1,0 +1,12 @@
+gg:
+  jte:
+    development-mode: true
+spring:
+  config:
+    import:
+      - classpath:application-dev-postgresql.yml
+      - classpath:application-dev-redis.yml
+      - classpath:application-dev-flyway.yml
+      - classpath:application-dev-actuator.yml
+      - classpath:application-dev-log.yml
+      - classpath:application-dev-application.yml

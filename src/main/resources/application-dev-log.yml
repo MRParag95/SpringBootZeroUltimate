@@ -1,0 +1,8 @@
+logging:
+  level:
+    com.thezerobytehunters.springbootzeroultimate: DEBUG
+
+    org.jooq: DEBUG
+    org.jooq.tools.LoggerListener: DEBUG
+
+    org.hibernate: DEBUG
