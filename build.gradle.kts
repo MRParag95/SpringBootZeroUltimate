@@ -214,7 +214,7 @@ jooq {
                 isTriggers = true
             }
             target {
-                packageName = "com.thezerobytehunters.springbootzeroultimate"
+                packageName = "com.thezerobytehunters.springbootzeroultimate.jooq"
             }
             strategy {
                 name = "org.jooq.codegen.DefaultGeneratorStrategy"
