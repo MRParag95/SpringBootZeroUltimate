@@ -5,12 +5,12 @@ import org.jooq.meta.jaxb.Logging
 
 plugins {
     java
-    id("org.springframework.boot") version "4.0.2-SNAPSHOT"
+    id("org.springframework.boot") version "4.1.0-SNAPSHOT"
     id("io.spring.dependency-management") version "1.1.7"
-    id("org.hibernate.orm") version "7.2.0.Final"
+    id("org.hibernate.orm") version "7.2.1.Final"
     id("org.graalvm.buildtools.native") version "0.11.3"
     id("gg.jte.gradle") version "3.1.16"
-    id("com.google.protobuf") version "0.9.5"
+    id("com.google.protobuf") version "0.9.6"
 
     id("io.freefair.aspectj.post-compile-weaving") version "9.1.0"
 
