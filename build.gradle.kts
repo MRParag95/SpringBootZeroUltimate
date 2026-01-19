@@ -9,10 +9,10 @@ plugins {
     id("io.spring.dependency-management") version "1.1.7"
     id("org.hibernate.orm") version "7.2.1.Final"
     id("org.graalvm.buildtools.native") version "0.11.3"
-    id("gg.jte.gradle") version "3.1.16"
+    id("gg.jte.gradle") version "3.2.2"
     id("com.google.protobuf") version "0.9.6"
 
-    id("io.freefair.aspectj.post-compile-weaving") version "9.1.0"
+    id("io.freefair.aspectj.post-compile-weaving") version "9.2.0"
 
     id("org.jooq.trial.jooq-codegen-gradle") version "3.20.10"
 }
@@ -116,7 +116,7 @@ dependencies {
     implementation("org.jooq.trial:jooq-jackson-extensions:3.20.10")
     jooqCodegen("org.postgresql:postgresql")
 
-    implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:3.0.0")
+    implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:3.0.1")
 }
 
 dependencyManagement {
