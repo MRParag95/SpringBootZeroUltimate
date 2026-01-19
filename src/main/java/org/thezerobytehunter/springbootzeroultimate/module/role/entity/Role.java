@@ -21,12 +21,13 @@ import java.util.Set;
 public class Role extends BaseEntity {
     private String name;
 
+    @ToString.Exclude
+    @Builder.Default
     @ManyToMany(
             mappedBy = "roles",
             cascade = { CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REFRESH, CascadeType.DETACH },
             fetch = FetchType.LAZY
     )
-    @ToString.Exclude
     private Set< User > users = new HashSet<>( );
 
     public void addUser( User user ) {

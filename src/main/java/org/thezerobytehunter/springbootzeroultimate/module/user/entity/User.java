@@ -32,6 +32,7 @@ public class User extends BaseEntity {
     private String password;
 
     @ToString.Exclude
+    @Builder.Default
     @ManyToMany(
             cascade = { CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REFRESH, CascadeType.DETACH },
             fetch = FetchType.LAZY
