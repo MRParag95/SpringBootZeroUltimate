@@ -15,6 +15,7 @@ public class RoleRequest implements IRequest {
     private Long id;
 
     @JsonIgnore
+    @Builder.Default
     private String requestTraceUID = Generators.timeBasedEpochGenerator( ).generate( ).toString( );
 
     private String name;
